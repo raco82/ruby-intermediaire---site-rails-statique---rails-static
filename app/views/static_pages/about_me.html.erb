@@ -1,0 +1,38 @@
+<div class="center jumbotron">
+  <h1>A propos de moi</h1>
+
+  <%= image_tag("https://pbs.twimg.com/profile_images/994936203681128448/hE2jUcSd_400x400.jpg", class: "img-responsive-center", :alt => "Racö") %>
+  <h2>Racö en quelques lignes</h2>
+
+  <p>Salut, toi. Si tu es arrivé jusqu'ici c'est que tu a envie d'en savoir plus sur moi, coquinou va !<br><br>
+
+    Alors, j'ai pour habitude de dire que je suis un gros touche à tout numérique avec un besoin permanent de comprendre comment ça fonctionne, pour des besoins, pour le plaisir, ou pour des raisons professionnelles.<br>
+    D'une application Android au Raspberry en passant par la cuisine, la communication visuelle, le jeu vidéo et la création pour le web.<br><br></p>
+</div>
+<h2>Ah oui et j'ai aussi quelques phrases préférées :
+</h2>
+
+<div class="jumbotron" style="background-color:#e3aef2;">
+  <ul>
+    <li>L’ego est le premier destructeur de valeur dans un projet</li>
+    <li>Et tous les matins que je peux, j'écoute pousser mes cheveux ^___^</li>
+    <li>Ca tombera pas plus bas...</li>
+    <li>3 eyes're better than 2</li>
+    <li>c'est rentré...comme papa dans maman !</li>
+    <li>Fierté, force et honneur.</li>
+  </ul>
+
+</div>
+
+<h2>Pour aller plus loin et en savoir plus</h2>
+
+<div class="jumbotron" style="background-color:#f2e3ae;">
+  <ul>
+    <li><%= link_to 'Plus d\'info sur ce site', about_path %></li>
+    <li><%= link_to 'Plus d\'info sur ma team', team_path %></li>
+    <li><%= link_to 'Contact', contact_path %></li>
+  </ul>
+
+  <p><%= link_to '<- Retourner sur la page d\'accueil', root_path %></p>
+
+</div>
